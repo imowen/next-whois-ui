@@ -717,15 +717,7 @@ export default function Lookup({ data, target }: Props) {
         <div
           className={`mt-12 text-sm flex flex-row items-center font-medium text-muted-foreground select-none`}
         >
-          Powered by{" "}
-          <Link
-            href={`https://github.com/zmh-program/next-whois-ui`}
-            target={`_blank`}
-            className={`text-primary underline underline-offset-2 mx-1`}
-          >
-            Next Whois UI
-          </Link>
-          <Badge variant={`outline`}>v{VERSION}</Badge>
+          Powered by Next Whois UI
         </div>
       </main>
     </ScrollArea>
