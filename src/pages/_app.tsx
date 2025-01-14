@@ -60,7 +60,7 @@ export default function App({ Component, pageProps }: AppProps) {
               }}
             />
             <div className={`grow`} />
-            <ThemeToggle />
+           
             
           </div>
           <Component {...pageProps} />
