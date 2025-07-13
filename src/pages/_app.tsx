@@ -32,7 +32,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="keywords" content={siteKeywords} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5638905191417408"
-     crossorigin="anonymous"></script>
+     crossOrigin="anonymous"></script>
         <script defer data-domain="whois.remit.ee" src="https://stat.st/js/script.js"></script>
       </Head>
       <Toaster />
