@@ -92,14 +92,7 @@ export function Navbar() {
         <div className="flex items-center gap-3">
           <ThemeToggle />
           <LanguageSwitcher />
-          <Link
-            href="https://github.com/zmh-program/next-whois-ui"
-            target="_blank"
-            className="inline-flex items-center justify-center rounded-full p-2 hover:scale-110 transition-all duration-300"
-          >
-            <RiGithubFill className="h-[1rem] w-[1rem]" />
-            <span className="sr-only">GitHub</span>
-          </Link>
+          
         </div>
       </nav>
     </div>
