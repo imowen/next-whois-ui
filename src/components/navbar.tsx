@@ -86,9 +86,6 @@ export function Navbar() {
           WHOIS
         </Link>
 
-        <div className="h-4 w-[1px] bg-primary/10" />
-
-        
 
         <div className="h-4 w-[1px] bg-primary/10" />
 
