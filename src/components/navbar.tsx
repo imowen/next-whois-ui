@@ -83,32 +83,19 @@ export function Navbar() {
           className="text-xs ml-2 font-medium tracking-wide hover:text-primary/80 transition-colors flex items-center"
           onClick={() => install(true)}
         >
-          NEXT WHOIS
-          <p className="text-xs text-muted-foreground ml-1.5">{VERSION}</p>
+          WHOIS
         </Link>
 
         <div className="h-4 w-[1px] bg-primary/10" />
 
-        <Link
-          href="/docs"
-          className="text-xs font-medium text-muted-foreground hover:text-foreground transition-colors"
-        >
-          API
-        </Link>
+        
 
         <div className="h-4 w-[1px] bg-primary/10" />
 
         <div className="flex items-center gap-3">
           <ThemeToggle />
           <LanguageSwitcher />
-          <Link
-            href="https://github.com/zmh-program/next-whois-ui"
-            target="_blank"
-            className="inline-flex items-center justify-center rounded-full p-2 hover:scale-110 transition-all duration-300"
-          >
-            <RiGithubFill className="h-[1rem] w-[1rem]" />
-            <span className="sr-only">GitHub</span>
-          </Link>
+          
         </div>
       </nav>
     </div>
